@@ -1,32 +1,33 @@
 .navbar {
-    display:flex;
+    display: flex;
+    /* flex: 1; */
     justify-content: space-between;
     padding: 10px;
     align-items: center;
     border: solid;
     border-color: black;
-    
-}
-
-.links {
+    margin: 20px;
+    /* width: 100%; */
+  }
+  
+  .links {
     display: flex;
     gap: 20px;
     border: solid;
     border-color: black;
-}
-
-.logo {
+  }
+  
+  .logo {
     flex: 1;
     border: solid;
     border-color: black;
-
-}
-
-ul {
+  }
+  
+  ul {
     list-style-type: none;
-}
-
-a {
+  }
+  
+  a {
     font-size: 14px;
     text-decoration: none;
-}
+  }
