@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="section.css">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
     <div class="body">
         <div class="navbar">
-            <div class="logo">LOGO</div>
+            <div class="logo">LOGO HERE</div>
             <ul class="links">
                 <li><a href="link1">Link 1</a></li>
                 <li><a href="link2">Link 2</a></li>
                 <li><a href="link3">Link 3</a></li>
             </ul>
-       
         </div>
 
-        <div class="section">
-           
 
-            <div class="container1">
+        <section class="section" id="section_1">
+            <div class="wrapper_col">
                 <div class="header">
                     <h1>Hello, This is a landing page.</h1>
                 </div>  
@@ -36,69 +35,67 @@
                 </div>
             </div>
 
-            <div class="container2">
+            <div class="wrapper_col">
                 <img src="./img/image.png" alt="This is the image.">
             </div>
-    
-        </div>
-          
-        
-        <div class="section2">
+        </section>
+
+        <section class="section" id="section_2">
             <div class="header">
                 <h2>Some random information.</h2>
             </div>  
-            <div class="wrapper">
+            <div class="wrapper_row">
                 <div class="info">
-                    <img src="./images/barberry.png" alt="barberry">
+                    <img src="./img/barberry.png" alt="barberry">
                     <div class="text">This is some subtext under an illustration or image.</div>
                 </div>
         
                 <div class="info">
-                    <img src="./images/chilli.png" alt="chili">
+                    <img src="./img/chilli.png" alt="chili">
                     <div class="text">This is some subtext under an illustration or image.</div>
                 </div>
                 
                   <div class="info">
-                    <img src="./images/pepper.png" alt="pepper">
+                    <img src="./img/pepper.png" alt="pepper">
                     <div class="text">This is some subtext under an illustration or image.</div>
                 </div>
         
                 <div class="info">
-                    <img src="./images/saffron.png" alt="saffron">
+                    <img src="./img/saffron.png" alt="saffron">
                     <div class="text">This is some subtext under an illustration or image.</div>
                 </div>
-            </div>       
-                
-        </div>
-
-        <div class="section3">
+            </div>  
+        </section>
+       
+        <section class="section" id="section_3">
             <div class="quote">
-                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice
-            </div>  
-              
-                
-        </div>
-
-        <div class="section4">
-            <div class="cta-container">
-                Call to action time! It's time! 
-                Sign up for our product by clicking that button right over there! 
-                <div class="button">
-                    <button>Sign up</button>
+                <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p> 
+                <p id="thor"><strong>-Thor, God of Thunder</strong></p>
+             </div>  
+        </section>
+      
+        <section class="section" id="section_4">
+            <div class="cta">
+                <div id="s4_wrapper">
+                <h3>Call to action time! It's time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
                 </div>
-            </div>  
-              
-                
-        </div>
+                <div id="s4_wrapper">
+                    <div class="button">
+                        <button>Sign up</button>
+                    </div>
+                </div>
+            </div>   
+        </section>
 
-        <div class="section5">
+        <section class="section" id="section_5">
             <div class="footer">
-                    Copyright C. The Odin Project 2021
-                </div>
-            </div>  
-              
-                
-        </div>
+                Copyright C. The Odin Project 2021
+            </div>
+        </div>  
+
+        </section>
+
 
 </body>
 </html>
